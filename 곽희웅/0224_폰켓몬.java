@@ -1,5 +1,4 @@
 /*
-
 첫 번째로 풀었을 때
 import java.util.Arrays;
 
@@ -29,7 +28,6 @@ class Solution {
         return phonekemon;
     }
 }
-
 */
 
 import java.util.Arrays;
