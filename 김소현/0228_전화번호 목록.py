@@ -4,7 +4,7 @@ phone_book3 = ["12","123","1235","567","88"]
 
 def solution(phone_book):
     phone_book.sort()
-    len1 = len(phone_book)
+    len1 = len(phone_book)-1
 
     for i in range(1,len1):
         if phone_book[i].startswith(phone_book[0]):
