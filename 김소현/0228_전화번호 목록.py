@@ -6,11 +6,11 @@ def solution(phone_book):
     phone_book.sort()
     len1 = len(phone_book)-1
 
-    for i in range(1,len1):
-        if phone_book[i].startswith(phone_book[0]):
+    for i in range(len1):
+        if phone_book[i+1].startswith(phone_book[i]):
             return False
-        else:
-            return True
+
+    return True
 
     
 print(solution(phone_book1))
