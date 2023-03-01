@@ -2,7 +2,6 @@ cloth1 = [["yellow_hat", "headgear"], ["blue_sunglasses", "eyewear"], ["green_tu
 
 cloth2 = [["crow_mask", "face"], ["blue_sunglasses", "face"], ["smoky_makeup", "face"]]
 
-
 def solution(clothes):
     answer = 1
     n = {}
