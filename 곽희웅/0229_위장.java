@@ -14,7 +14,6 @@ class Solution {
                 count.put(i[1], 1);
             }
         }
-
         // .size = HashMap의 크기
         // 만약 옷의 종류가 하나라면, value값 적용
         if(count.size() == 1) {
